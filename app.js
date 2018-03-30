@@ -9,6 +9,7 @@ app.use(morgan("dev"))
 app.use(bodyParser.json())
 
 app.use("/cactus", cactus)
+app.use("/tree", tree)
 
 app.use((request, response, next) => {
     const error = new Error("Not Found")
