@@ -14,7 +14,7 @@ const design = require("./routes/graphic-design")
 
 app.use(morgan("dev"))
 app.use(bodyParser.json())
-app.use(cors)
+app.use(cors())
 
 app.use("/cactus", cactus)
 app.use("/tree", tree)
