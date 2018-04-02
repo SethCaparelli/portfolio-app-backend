@@ -1,7 +1,7 @@
 
 exports.seed = function(knex, Promise) {
 
-  return knex.raw("DELETE FROM cactus; ALTER SEQUENCE cactus_id_seq RESTART WITH 16;")
+  return knex.raw("DELETE FROM cactus; ALTER SEQUENCE cactus_id_seq RESTART WITH 15;")
     .then(function () {
       const cactus = [{
         id: 1,
@@ -53,42 +53,36 @@ exports.seed = function(knex, Promise) {
         type: "Sculpture"
       }, {
         id: 9,
-        name: "Cactus^3 ver 4",
-        material: "Ceramic",
-        url: "/assets/cactus/cactus^3_ver_4_close.jpg",
-        type: "Sculpture"
-      }, {
-        id: 10,
         name: "Cactus^3 ver 5",
         material: "Ceramic, acrylic, and Flocking",
         url: "/assets/cactus/cactus^3_ver_5.jpg",
         type: "Sculpture"
       }, {
-        id: 11,
+        id: 10,
         name: "Cactus^3 ver 5",
         material: "Ceramic, acrylic, and Flocking",
         url: "/assets/cactus/cactus^3_ver_5_close.jpg",
         type: "Sculpture"
       }, {
-        id: 12,
+        id: 11,
         name: "Cactus^3 ver 6",
         material: "Ceramic",
         url: "/assets/cactus/cactus^3_ver_6.jpg",
         type: "Sculpture"
       }, {
-        id: 13,
+        id: 12,
         name: "Cactus^3 ver 6",
         material: "Ceramic",
         url: "/assets/cactus/cactus^3_ver_6_close.jpg",
         type: "Sculpture"
       }, {
-        id: 14,
+        id: 13,
         name: "Cactus^3 ver 7",
         material: "Ceramic",
         url: "/assets/cactus/cactus^3_ver_7.jpg",
         type: "Sculpture"
       }, {
-        id: 15,
+        id: 14,
         name: "Cactus^3 ver 7",
         material: "Ceramic",
         url: "/assets/cactus/cactus^3_ver_7_close.jpg",
