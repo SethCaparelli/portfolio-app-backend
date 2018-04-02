@@ -25,7 +25,7 @@ exports.seed = function(knex, Promise) {
         id: 4,
         name: "Cactus^3 ver 2",
         material: "Ceramic",
-        url: "/assets/cactus/cactus^3_ver_2",
+        url: "/assets/cactus/cactus^3_ver_2.jpg",
         type: "Sculpture"
       }, {
         id: 5,
