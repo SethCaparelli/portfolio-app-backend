@@ -1,22 +1,21 @@
 const express = require("express")
 const router = express.Router()
 
-const queries = require("../queries/cactus_queries")
+const queries = require("../queries/tree_queries")
 
 router.get("/", (request, response, next) => {
-    console.log(next)
     queries.list()
-    .then(cactus => {
-        response.json({cactus})
+    .then(tree => {
+        response.json({tree})
     })
     .catch(next)
 })
 
 router.get("/:id", (request, response, next) => {
     queries.read(request.params.id)
-    .then(cactus => {
-        cactus
-            ? response.json({cactus})
+    .then(tree => {
+        tree
+            ? response.json({tree})
             : response.status(404).json({message: "Not Found"})
     })
     .catch(next)
@@ -24,8 +23,8 @@ router.get("/:id", (request, response, next) => {
 
 router.post("/", (request, response, next) => {
     queries.create(request.body)
-    .then(cactus => {
-        response.status(201).json({cactus: cactus})
+    .then(tree => {
+        response.status(201).json({tree: tree})
     })
     .catch(next)
 })
@@ -40,8 +39,8 @@ router.delete("/:id", (request, response, next) => {
 
 router.put("/:id", (request, response, next) => {
     queries.update(request.params.id, request.body)
-    .then(cactus => {
-        response.json({cactus: cactus[0]})
+    .then(tree => {
+        response.json({tree: tree[0]})
     })
     .catch(next)
 })

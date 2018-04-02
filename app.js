@@ -4,12 +4,15 @@ const morgan = require("morgan")
 const app = express()
 
 const cactus = require("./routes/cactus")
+const tree = require("./routes/tree")
+const sculpture = require("./routes/sculpture")
 
 app.use(morgan("dev"))
 app.use(bodyParser.json())
 
 app.use("/cactus", cactus)
 app.use("/tree", tree)
+app.use("/sculpture", sculpture)
 
 app.use((request, response, next) => {
     const error = new Error("Not Found")
