@@ -2,6 +2,7 @@ const express = require("express")
 const bodyParser = require("body-parser")
 const morgan = require("morgan")
 const app = express()
+const cors = require("cors")
 
 const cactus = require("./routes/cactus")
 const tree = require("./routes/tree")
@@ -13,6 +14,7 @@ const design = require("./routes/graphic-design")
 
 app.use(morgan("dev"))
 app.use(bodyParser.json())
+app.use(cors)
 
 app.use("/cactus", cactus)
 app.use("/tree", tree)
