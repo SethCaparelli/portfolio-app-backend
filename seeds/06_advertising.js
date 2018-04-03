@@ -85,19 +85,19 @@ exports.seed = function(knex, Promise) {
       id: 14,
       name: "Google Phone #1",
       material: "Print",
-      url: "/assets/advertising/ghone_1.jpg",
+      url: "/assets/advertising/gphone_1.jpg",
       type: "Advertising"
      }, {
       id: 15,
       name: "Google Phone #2",
       material: "Print",
-      url: "/assets/advertising/ghone_2.jpg",
+      url: "/assets/advertising/gphone_2.jpg",
       type: "Advertising"
      }, {
       id: 16,
       name: "Google Phone #3",
       material: "Print",
-      url: "/assets/advertising/ghone_3.jpg",
+      url: "/assets/advertising/gphone_3.jpg",
       type: "Advertising"
      }]
 
