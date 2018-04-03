@@ -48,7 +48,7 @@ exports.seed = function(knex, Promise) {
       id: 8,
       name: "Puzzle Plate #1",
       material: "Ceramic",
-      url: "/assets/vessel/ring_and_conatainer.jpg",
+      url: "/assets/vessel/puzzle_plate_1.jpg",
       type: "Slip Cast"
     }, {
       id: 9,

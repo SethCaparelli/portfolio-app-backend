@@ -48,13 +48,13 @@ exports.seed = function(knex, Promise) {
       id: 8,
       name: "Ring and Container",
       material: "Copper, Nickel, and Silver",
-      url: "/assets/sculpture/ring_and_conatainer.jpg",
+      url: "/assets/sculpture/ring_and_container.jpg",
       type: "Sculpture"
     }, {
       id: 9,
       name: "Ring and Container",
       material: "Copper, Nickel, and Silver",
-      url: "/assets/sculpture/ring_and_conatainer_close.jpg",
+      url: "/assets/sculpture/ring_and_container_close.jpg",
       type: "Sculpture"
     }, {
       id: 10,
@@ -66,7 +66,7 @@ exports.seed = function(knex, Promise) {
       id: 11,
       name: "Sky^3",
       material: "Ceramic, Wood, Aircraft Cable, and Glass",
-      url: "/assets/sculpture/sky^3.jpg",
+      url: "/assets/sculpture/sky^3_close.jpg",
       type: "Sculpture"
     }, {
       id: 12,
