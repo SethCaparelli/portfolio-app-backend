@@ -43,28 +43,22 @@ exports.seed = function(knex, Promise) {
       id: 7,
       name: "Elm and Oak Shirt #2",
       material: "Textile",
-      url: "/assets/graphic-design/elm_and_oak_shirt_2.jpg",
+      url: "/assets/graphic-design/elm_and_oak_shirt_3.jpg",
       type: "Graphic Design"
     }, {
       id: 8,
       name: "Elm and Oak Shirt #3",
       material: "Textile",
-      url: "/assets/graphic-design/elm_and_oak_shirt_3.jpg",
+      url: "/assets/graphic-design/elm_and_oak_shirt_4.jpg",
       type: "Graphic Design"
     }, {
       id: 9,
       name: "Elm and Oak Shirt #4",
       material: "Textile",
-      url: "/assets/graphic-design/elm_and_oak_shirt_4.jpg",
-      type: "Graphic Design"
-    }, {
-      id: 10,
-      name: "Elm and Oak Shirt #5",
-      material: "Textile",
       url: "/assets/graphic-design/elm_and_oak_shirt_5.jpg",
       type: "Graphic Design"
     }, {
-      id: 11,
+      id: 10,
       name: "Lost Dog",
       material: "Print",
       url: "/assets/graphic-design/lost_bulldog_poster.jpg",
