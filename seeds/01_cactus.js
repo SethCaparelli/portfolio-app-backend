@@ -18,7 +18,7 @@ exports.seed = function(knex, Promise) {
       }, {
         id: 3,
         name: "Cactus^3 ver 1",
-        material: "Ceramic",
+        material: "Oil on Ceramic",
         url: "/assets/cactus/cactus^3_ver_1_close_2.jpg",
         type: "cactus"
       }, {
